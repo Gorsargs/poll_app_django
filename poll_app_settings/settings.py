@@ -16,7 +16,7 @@ SECRET_KEY = 'usja$c64=e$%k7fe0=i)7yidfc-7uf)2ds27q1w3@zy9km*ci$'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["mypollapplication.herokuapp.com","127.0.0.1"]
+ALLOWED_HOSTS = ['mypollapplication.herokuapp.com','127.0.0.1']
 
 
 
@@ -34,7 +34,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleWare',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
