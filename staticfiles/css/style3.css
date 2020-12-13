@@ -1,0 +1,47 @@
+.form-control {
+    display: none;
+    width: 100px;
+}
+
+.question-field {
+    display: block;
+    width: 415px;
+    height: 200px;
+    padding: .375rem .75rem;
+        padding-top: 0.375rem;
+        padding-right: 0.75rem;
+        padding-bottom: 0.375rem;
+        padding-left: 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+        border-top-left-radius: 0.25rem;
+        border-top-right-radius: 0.25rem;
+        border-bottom-right-radius: 0.25rem;
+        border-bottom-left-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    overflow:auto;
+    resize: none;
+}.question-field:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25)}
+
+#choice1,#choice2{
+    display: block;
+}
+
+.mybox{
+    position: relative;
+    height:10px;
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+}
