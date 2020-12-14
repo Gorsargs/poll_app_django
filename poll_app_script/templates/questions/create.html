@@ -29,7 +29,7 @@
                 <div class="col-sm"></div>
                 <div class="col-sm">
                     <form action="" method="POST">
-                        <div class="col-sm" style="width: 100%;  height: 356px;">
+                        <div class="col-sm" style="width: 100%; height: 400px; max-height: 600px;">
                             {% csrf_token %}
                             {{form.name}}
                             {% for form in form_list %}
