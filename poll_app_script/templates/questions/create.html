@@ -29,11 +29,11 @@
                 <div class="col-sm"></div>
                 <div class="col-sm">
                     <form action="" method="POST">
-                        <div class="col-sm" style="width: 100%; height: 400px; max-height: 600px;">
+                        <div class="col-xs" style="width: 100%; height: 400px; max-height: 600px;">
                             {% csrf_token %}
                             {{form.name}}
                             {% for form in form_list %}
-                            <div class="d-inline-flex mt-2">
+                            <div class="d-inline-flex mt-2" style="width:90px">
                                 {{form}}
                             </div>
                             {% endfor %}
@@ -43,7 +43,7 @@
                                 onclick="add()">
                             <input type="button" value="- Option" name="pop" class="btn btn-primary ml-1"
                                 onclick="hide()">
-                            <input type="submit" value="submit" class="btn btn-success ml-1" name="create"
+                            <input type="submit" value="submit" class="btn btn-success m-1" name="create"
                                 id="submit-button" onclick="validator(); checknames();" disabled='true'>
                         </div>
                     </form>

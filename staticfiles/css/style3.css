@@ -1,7 +1,7 @@
 .form-control {
     display: none;
-    width: 105px;
-    margin-left: 2px;
+    width: 90px;
+    margin-left: 17px;
 }
 
 .question-field {
@@ -48,3 +48,4 @@
     border: none;
     border-radius: 10px;
 }
+
