@@ -36,6 +36,8 @@ function validator() {
                     element.value = element.value + " " + emptyArr.filter(x => x === element.value).length;
                 }
             }
+        }else{
+            element.value = "";
         }
     }
 }
